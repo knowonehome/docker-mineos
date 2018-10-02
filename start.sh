@@ -5,8 +5,8 @@ SERVER=server.js
 CONSOLE=mineos_console.js
 CONFIGFILE=/usr/games/minecraft/mineos.conf
 DATAPATH=/var/games/minecraft
-USER=minecraft
-GROUP=minecraft
+USER=share
+GROUP=share
 
 # Create does not exists directories
 chown $USER:$GROUP $DATAPATH

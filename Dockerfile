@@ -26,7 +26,7 @@ ADD start.sh /usr/games/minecraft/start.sh
 RUN chmod +x /usr/games/minecraft/start.sh
 
 # Add minecraft user and change owner files.
-RUN useradd -M -u 1020 -s /bin/bash -d /usr/games/minecraft shared
+RUN useradd -M -u 1020 -s /bin/bash -d /usr/games/minecraft share
 
 # Cleaning
 RUN apt-get -y remove build-essential; \
